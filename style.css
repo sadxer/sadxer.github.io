@@ -1,0 +1,33 @@
+.main {
+    margin-left: 80px;
+    margin-top: 13%;
+    font-family: sans-serif;
+}
+
+#title {
+    line-height: 0;
+    text-transform: uppercase;
+}
+
+#subtitle {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #858181;
+}
+
+.links [id="github"] {
+    width: 200px;
+    height: 180px;
+}
+
+#code {
+    word-break: break-all;
+}
+
+@media only screen and (max-width: 700px) {
+    .main {
+        text-align: center;
+        margin: auto;
+        margin-top: 20%;
+    }
+}
